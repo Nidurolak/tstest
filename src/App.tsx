@@ -52,7 +52,7 @@ function App() {
       <div>Input Value: {inputValue}</div>
       <div>Current Type: {inputType}</div>
     </div>
-  ); 
+  );  
 };
 
 const TextColor= styled.div`
