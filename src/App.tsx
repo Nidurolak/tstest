@@ -56,7 +56,7 @@ function App() {
 };
 
 const TextColor= styled.div`
- color: blue;
+ color: green;
 `
 
 export default App;
