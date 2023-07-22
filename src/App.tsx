@@ -45,7 +45,7 @@ function App() {
     }
   };
 
-  return (
+  return ( 
     <div>
       <input maxLength={20} type="text" value={inputValue} onChange={handleChange} />
       <TextColor>Input sdsdsds: {trueCount}</TextColor>
@@ -56,7 +56,7 @@ function App() {
 };
 
 const TextColor= styled.div`
- color: green;
+ color: red;
 `
 
 export default App;
