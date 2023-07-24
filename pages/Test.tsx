@@ -1,9 +1,8 @@
 import React, { useState, ChangeEvent, useEffect } from 'react';
-import './App.css';
 import styled from "styled-components";
 import { debug } from 'console';
 
-function App() {
+function Test() {
   let 회원정보 : Member= {
     name : 'kim',
     age : 30,
@@ -74,4 +73,4 @@ const TextColor= styled.div`
  color: red;
 `
 
-export default App;
+export default Test;
