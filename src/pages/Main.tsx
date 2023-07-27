@@ -25,7 +25,10 @@ function Main (){
         students.studentsGroup.map((group, index) => {
           if(index == openIndex){
             return(
+              <>
+              <CeheckJowon>최종 확인</CeheckJowon>
               <JogyoBox key = {index} props ={group}/>
+              </>
               /*<JogtoBoxDiv key={index}>
                 <JogyoBox props = {group}/>
               </JogtoBoxDiv>*/
@@ -40,6 +43,19 @@ function Main (){
 
 
 export default Main;
+
+const CeheckJowon = styled.button`
+width: 200px;
+height: 60px;
+background-color: #5d5a88;
+cursor: pointer;
+color: white;
+border-radius: 20px;
+border: 1px solid #5d5a88;
+font-weight: 400;
+font-size: 32px;
+  
+`
 
 const MainBox = styled.div`
 display: flex;
