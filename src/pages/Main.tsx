@@ -26,7 +26,7 @@ function Main (){
           if(index == openIndex){
             return(
               <>
-              <CeheckJowon>최종 확인</CeheckJowon>
+              <CeheckJowon>불참 확인</CeheckJowon>
               <JogyoBox key = {index} props ={group}/>
               </>
               /*<JogtoBoxDiv key={index}>
