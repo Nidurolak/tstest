@@ -16,10 +16,10 @@ const JogyoBox = ({props} :JogyoProps) =>{
         {item[1]} - {item[0]} 
       </JowonBox>
       <JowonBox>
-        버디 - {item[2]}
+        멘토 - {item[2]}
       </JowonBox>
       <JowonBox>
-        멘토 - {item[3]}
+        버디 - {item[3]}
       </JowonBox>
       <JowonCheckBox>
         오전 : <StyledCheckbox/> 오후 : <StyledCheckbox/> 버디 : <StyledCheckbox/> 멘토 : <StyledCheckbox/>
