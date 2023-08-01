@@ -34,7 +34,7 @@ const JogyoBox = ({props} :JogyoProps) =>{
 
 const StyledCheckbox = styled.input.attrs({ type: "checkbox" })`
 border-radius: 7px;
-border: 1px solid #ccc;
+border: 3px solid #ccc;
 background-color: #fff;
 width: 16px;
 height: 16px;
