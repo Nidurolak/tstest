@@ -77,7 +77,7 @@ margin: 10px;
 const JogtoBoxDiv = styled.div`
   max-width: 100%;
   height: 100%;
-  padding: 12px;
+  padding: 10px;
   background-color: rgb(180, 180, 180);
   border-radius: 10px;
 `
